@@ -5,7 +5,7 @@ type Tender struct {
 	Name           string `json:"name"`
 	Description    string `json:"description"`
 	Status         string `json:"status"`
-	Version        string `json:"verstion"`
+	Version        uint   `json:"verstion"`
 	ServiceType    string `json:"serviceType"`
 	CreatedAt      string `json:"createdAt"`
 	OrganizationID string `json:"organizationId"`
